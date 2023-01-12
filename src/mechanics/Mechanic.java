@@ -14,12 +14,12 @@ public class Mechanic {
     }
 
     public void doMaintenance(Transport transport) {
-        if ( this.name.contains(transport.getMechanics().toString()) ) System.out.println(" обслуживание " + transport + " проведено " + this.name);
+        if ( transport.carMechanics.contains(this) ) System.out.println(" обслуживание " + transport.getBrand() + " провёл " + this.name);
             else  System.out.println(" механик " + this.name + " не списке ");
     }
 
     public void repairCar(Transport transport){
-        if ( this.name.contains(transport.getMechanics().toString()) ) System.out.println(" ремонт " + transport + " проведен " + this.name);
+        if ( transport.carMechanics.contains(this) ) System.out.println(" ремонт " + transport.getBrand() + " провёл " + this.name);
         else  System.out.println(" механик " + this.name + " не списке ");
         }
 

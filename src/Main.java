@@ -118,6 +118,7 @@ public class Main {
         System.out.println(" водитель по  имени " + busIcarus.driver.fullName); //
 
         mechPetya.doMaintenance(busIcarus); // отказ
+        mechVasya.doMaintenance(busIcarus);
 
     }
 }
