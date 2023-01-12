@@ -6,7 +6,6 @@ import java.util.List;
 
 public class Car extends Transport<DriverB> {
     private CarBodyType carBodyType;
-
     public enum CarBodyType  {
         SEDAN("Седан"),
         HATCHBACK("Хетчбек"),

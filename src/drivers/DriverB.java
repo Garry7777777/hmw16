@@ -9,7 +9,6 @@ public class  DriverB extends Driver{
     public DriverB (String fullName, int driverLicense, int drivingExperience) {
         super(fullName, driverLicense, drivingExperience);
     }
-
     public void setLicenseType(String licenseType, String licenseCategory ) throws MyException {
 
         if ( licenseType == null || licenseType.equals("") || licenseCategory == null || !licenseCategory.equals("Категория «B»"))

@@ -4,6 +4,7 @@ public interface Competitive {
         System.out.println("Пит Стоп");
     }
 
+
     void bestLapTime();
     void maxSpeed();
 }

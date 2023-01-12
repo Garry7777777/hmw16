@@ -6,5 +6,4 @@ public class MyException extends Exception{
         System.out.print(event);
     }
 
-
 }

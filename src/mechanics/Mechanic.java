@@ -12,7 +12,6 @@ public class Mechanic {
         this.company = company;
         this.transport = transport;
     }
-
     public void doMaintenance(Transport transport) {
         if ( transport.carMechanics.contains(this) ) System.out.println(" обслуживание " + transport.getBrand() + " провёл " + this.name);
             else  System.out.println(" механик " + this.name + " не списке ");

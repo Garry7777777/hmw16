@@ -10,7 +10,6 @@ public class  Driver {
         this.drivingExperience = drivingExperience;
     }
 
-
     public void startMoving(){
         System.out.println( this  + " движется ");
     }

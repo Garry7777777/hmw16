@@ -28,7 +28,6 @@ public class Bus extends Transport<DriverD> {
             return "Вместимость: " + minCapacity + " - " + maxCapacity + " мест";
         }
     }
-
     public Bus(Capacity capacity, String brand, String model, float engineVolume, DriverD driver) {
         super(brand, model, engineVolume, driver);
 
