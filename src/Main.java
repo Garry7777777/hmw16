@@ -98,7 +98,6 @@ public class Main {
             System.out.print( driverDen.fullName );
         }
 */
-
         //  вывод в консоль домашки - Введение в коллекции. List и Queue
 
         Mechanic mechVasya = new Mechanic("Василий", "Автобусная компания", "автобус");

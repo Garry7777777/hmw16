@@ -2,7 +2,7 @@ package drivers;
 
 import exception.MyException;
 
-public class DriverB extends Driver{
+public class  DriverB extends Driver{
     protected String licenseType;
     protected  String licenseCategory;
 

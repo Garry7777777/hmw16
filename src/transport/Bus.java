@@ -40,7 +40,6 @@ public class Bus extends Transport<DriverD> {
         else System.out.println(capacity);
     }
 
-
     @Override
     public void bestLapTime() {
         System.out.println("лучшее время круга бусика "+ this.brand + this.model);
